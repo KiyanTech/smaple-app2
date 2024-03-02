@@ -10,7 +10,7 @@ public class MathSample {
 	}
 	public static int subdev1(int a,int b) {
 		if(a>b) {
-			return a-b;
+		   return a-b>0 ? a-b : 0; // offline
 		}
 		return b-a;
 	}
