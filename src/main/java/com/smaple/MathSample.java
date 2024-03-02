@@ -4,7 +4,7 @@ package com.smaple;
 public class MathSample {
 	
 	
-	public static int sum(int a,int b) {
+	public static int sum2(int a,int b) {
 		
 		return a+b;
 	}
@@ -19,7 +19,7 @@ public class MathSample {
 	public static void main(String ...arg) {
 		
 		System.out.println("Hi");
-		System.out.println("Hi " + sum(10,20)) ;
+		System.out.println("Hi " + sum2(10,20)) ;
 		System.out.println("Hi " + subdev1(10,20)) ;
 		
 	}
