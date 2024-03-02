@@ -10,9 +10,11 @@ public class MathSample {
 	}
 	public static int subdev1(int a,int b) {
 		if(a>b) {
-			return a-b;
+		    return a-b;
+		}else{
+		   return b-a;	
 		}
-		return b-a;
+		
 	}
 	public static void main(String ...arg) {
 		
